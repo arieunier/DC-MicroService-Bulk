@@ -1,1 +1,1 @@
-bulkservice: export PYTHONPATH=.:./appsrc; python appsrc/bulkservice.py
+bulkservice: export PYTHONPATH=.:./appsrc:./apprsc/libs/; python appsrc/bulkservice.py
