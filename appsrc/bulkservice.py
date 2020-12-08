@@ -1,6 +1,6 @@
 import ujson
 import json
-from libs import queuer, logs, rabbitmq_utils, config, rediscache, sfapi, postgres, utils, aws
+from dclibs import queuer, logs, rabbitmq_utils, config, rediscache, sfapi, postgres, utils, aws
 LOGGER = logs.LOGGER
 
 ### SERVICE TEMPLATE
